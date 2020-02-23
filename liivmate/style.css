@@ -197,7 +197,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .box1_txt{margin-top: -2%;width: 55%;}
     .box1_phone{width: 40%;margin-left: 52%;margin-top: 5%;}
     .box_iconbox{width: 55%;}
-    .box_iconbox a p{text-shadow: 2px 1px 2px #000;font-size: 1.7em;background-position: 10% 55%;}
+    .box_iconbox a p{text-shadow: 2px 1px 2px #000;font-size: 1.7em;background-position: 10% 55%;background-position: 0% 55%}
     
     .tab_phone{display: block;width:27%;position: absolute;top: 36.5%;left: 20%;}
     .tab_app_box{width: 60%;z-index: 99;position: absolute;top: 49%;left: 20%;display: block;}
