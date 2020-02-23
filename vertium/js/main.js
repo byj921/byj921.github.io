@@ -9,18 +9,10 @@ $(document).ready(function () {
         $('.btnOpen').css('display', 'block')
     });
 
-    //
-
     $('.more_btn').click(function () {
         $('.con1_box').css('height', '1920px');
         $('.more_btn').css('display', 'none');
     });
-    
-    //
-    
-    
-    
-    //
     
     $('.toggle_btn').click(function () {
         $('.toggle').css('right','0%');
@@ -37,9 +29,6 @@ $(document).ready(function () {
         $('.ft_sub').toggle('opacity','1');
     });
     
-    
-    
 });
-
 
 
