@@ -1,0 +1,268 @@
+@charset "uft-8";
+
+html,body{width: 100%;height: 100%;font-family: 'Noto Sans KR', sans-serif;overflow-x: hidden;overflow-y: hidden;}
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+button{background: none;border: none;}
+
+.wrap{width: 100%;display: grid;grid-template-columns: 19% 27% 27% 27%;grid-template-rows: 1080px;grid-gap: 1px;overflow: hidden;box-sizing: border-box;}
+.header{background: #fff;position: relative;margin-top: 6%;height: 100%;}
+
+.tog_btn{position: absolute;right: 3%;top: -0.6%; display: block;width: 40px;height: 40px;display: none;z-index: 999;}
+.tog_btn img{display: block;width: 100%;}
+.toggle{display: none;}
+
+.header .logo{display: block;}
+.logo img{display: block;width: 150px;margin: 30px auto;}
+
+.gnb{width: 70%;margin: 0 auto;}
+.gnb li{width:100%;transition: 0.3s;}
+.gnb li a{display: block;text-align: center;line-height: 55px;color: #414141;}
+.gnb li .dep1{display: block; background:#ffdf01;border-bottom: 2px solid #eee;width: 100%;height: 55px;font-size: 17px;z-index: 99;border-radius: 5px;}
+.sub li a{display: block;border-bottom: 1px solid #ddd;font-size: 16px;width: 100%;height: 55px;}
+.sub li a:hover{background: #ddd;}
+.sub li{opacity: 0;visibility: hidden;width: 100%;height: 0;}
+.gnb li:hover .sub li{opacity: 1;visibility: visible;height: 55px;}
+
+.ft_cs2{text-indent: 20px;}
+.ft_menu{margin-left: 60px;margin-top: 20px;}
+.ft_menu a{display: block;float: left;margin-left: 20px;color: #747474;}
+
+.app_box{width: 90%;z-index: 99;position: absolute;bottom: 13%;left: 5%}
+.app_box a{display: block;z-index: 9;width: 44%;float: left;margin-left: 3%;}
+.app_box a img{width: 100%;border: 1px solid #696969;}
+.phone{display:block;position: absolute;width: 70%;left: 15%;bottom: 16%}
+.hd_ft{width: 100%;height: 30px;position: absolute;bottom: 3%;left: 0;}
+.hd_ft p{width: 42%;color: #333333;float: left;text-align: center;}
+
+.box1{background-image: url(img/box1_back.png);background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;float: left;}
+.top_line{width: 100%;}
+.box1_txt{display: block;width: 80%;margin: 3% auto;}
+.box1_phone{display: block;width: 64%;margin-left: 26%;margin-top:8%;}
+.box1 a{display: block;}
+.box_iconbox{width: 90%;height: 320px;margin: 0 auto;}
+.box_iconbox a{display: block;width: 50%;height: 100%;float: left;}
+.box_iconbox a p{text-align: center;color: #ffce00;font-size: 1.2em;line-height: 3;background-image: url(img/box1_bott_ico.png);background-repeat: no-repeat;background-position: 13% 60%;background-size: 13%;text-indent: 10%;text-shadow: 1px 1px 1px #626262;}
+.box_iconbox a img{display: block; width: 70%;margin: 0 auto;}
+
+.box2{background-image: url(img/box2_back.png);background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;}
+.box2_logo{display: block;width: 85%;height: 10%;position: absolute;top: 1%;left: 3%; z-index: 99;}
+.box2_logo img{display: block;width: 100%;}
+.box2_boxwrap{width: 100%;height: 1080px;margin-top: 95px;}
+.service{display: block;width: 90%; height: 21%;margin: 15px auto;background: #fbf9ec;box-shadow: 2px 2px 5px #ccc;}
+.service h2{font-size: 25px;padding: 10px;color: #262626;padding-top: 20px;}
+.service span{font-size: 17px;color: #e65000;font-weight: lighter;}
+.service p{font-size: 18px; margin-left: 25px;margin-top: 10px; color: #2c2c2c;}
+
+#easy_pay{background-image: url(img/barcode_img.png);background-repeat:no-repeat;background-size: 125px auto;background-position: 330px 30px;}
+#easy_pay h2{text-indent: 20px;}
+#easy_pay p{margin-top: 0;}
+#manager{text-align: right;
+background-image: url(img/box2_graph.png);background-size: 160px;background-repeat: no-repeat;background-position: 20px 95px;}
+#manager h2,p{margin-right: 20px;}
+#manager .more{display: block;width: 100px;}
+#product{background-image: url(img/box2_finance.png);background-repeat: no-repeat;background-size: 140px;background-position: 330px 15px}
+#product h2{text-indent: 20px;}
+#magazine{text-align: right;
+background-image: url(img/siren_img.png);background-size: 150px;background-repeat: no-repeat;background-position: 34px 30px;}
+#magazine p{margin-top: 0;}
+
+.service .more{display: block;width: 100px;height: 40px;line-height: 36px;font-size: 0.9em;background-image: url(img/plus_icon.png);background-repeat: no-repeat;background-position: 93% 44.5%;background-size: 19px;color: #f65110;position: absolute;text-align: left;}
+#easy_pay,#manager,#product,#magazine{position: relative;}
+#easy_pay .more{left: 25px;bottom: 10px;}
+#manager .more{right: 25px;bottom: 10px;}
+#product .more{left: 25px;bottom: 10px;}
+#magazine .more{right: 25px;bottom: 10px;}
+
+.box3{background-image: url(img/box2_back.png);background-repeat: no-repeat;background-position: center;background-size: cover;border-left: 3px solid #ddd;}
+.box3_wrap{width: 100%;height: 100%;}
+.card_wrap{width: 100%;height: 46%;position: relative;float: left;background-image: url(img/box2_back_black.png);background-repeat: no-repeat;background-position: center;background-size: cover;}
+.card_tit{color: #fff;font-weight: bold;text-align: center;margin-top: 4%;font-size: 1.1em;letter-spacing: 1px;text-shadow: 2px 2px 3px #838383;}
+.wallet{width: 300%;height: 100%;margin: 0% auto;margin-left: 5.5%;overflow: hidden;position: relative;}
+.wallet ul{width: 100%;}
+.wallet ul li{width: 28.8%;height: 410px;float: left;margin-right: 3%;overflow: hidden;margin-top: 15px;box-shadow: 2px 2px 10px #aaa;border: 1px solid #e0e0e0;background-image: url(img/leather_back.png);background-repeat: no-repeat;background-position: center;background-size: cover;}
+.wallet ul li a img{display: block;width: 65%;margin: 15px auto;}
+.wallet ul li a{display: block; text-align: center;}
+.card_name{color: #262626; font-size: 23px;margin-top: 15px;font-weight: bold;background: rgba(255, 255, 255, 0.5);}
+.card_info{color: #574601;font-size: 16px;margin-top: 3%;}
+.card_more{width: 370px;height: 50px;margin: 30px auto;background: #191919;text-align: center;line-height: 50px;color: #fff;}
+.card_more:hover{background: #fff;color: #000;z-index: 999;}
+.btnFrame{float: left;}
+.btnFrame li{position: absolute;}
+.btnFrame li button{display: block;border: none;background: transparent;}
+.btnFrame li button img{display: block;height: 90px;}
+.left{left: -0.8%;top: 45%;}
+.right{right: 1%;top: 45%;}
+.cs_center{width: 100%;height: 54%;position: relative;float: left;}
+.cs_center video{margin-top: -0.5%;width: 100%;float: left;}
+.cs_box{width: 100%;height: 100%;float: left;}
+.cs_logo_wrap{width: 100%;float: left;margin-top: 17%}
+.cs_logo_wrap ul li{width: 50%;height: 100%;float: left;}
+.cs_logo_wrap img{display: block;margin: 0 auto;}
+.ft_kb_logo{width: 20%;display: block;}
+.ft_liiv_logo{width: 50%;}
+.cs_box div{float: left;}
+.liiv_cs{width: 48%;}
+.kb_cs{width: 51%;border-left: 1px solid #c3c1c1;float: left;}
+.cs_tit{color: #000;text-indent: 22%; line-height: 2;}
+.cs_num{color: #000;font-size: 2.3em;line-height: 1.3; font-weight: 900;text-indent: 18%;}
+.copy{width: 100%;height: 5%;color: #aaa;display: block;text-align: center;float: left;margin-top: 8%;}
+
+.tab_app_box{display: none;}
+.tab_phone{display: none;}
+
+
+@media (max-width:767px){
+    
+    html,body{height: 100%;overflow-y: scroll; }
+    .wrap{width: 100%;display: block;overflow: hidden;box-sizing: border-box;height: auto;}
+    .header{float: left;height:130px;width: 100%;}
+    
+    .toggle{position: absolute;top: 0;left: 0%;width: 100%;height: 667px;background: #fff;z-index: 9999;transition: 0.6s;display: none;}
+    .tog_logo{width:150px;display: block;margin: 6% auto;}
+    .tog_logo img{display: block;width: 100%;}
+    .tog_cls{display: block;position: absolute;width: 40px;height: 40px;left: 3%;top: 1.5%;}
+    .tog_cls img{width: 70%;margin-top: 20%}
+    .tog_btn{display: block;opacity: 9999;}
+    .tog_gnb{width: 70%;margin: 0 auto;position: relative;}
+    .tog_gnb li{width:100%;transition: 0.3s;}
+    .tog_gnb li a{display: block;text-align: center;line-height: 55px;color: #000;}
+    .tog_gnb li .dep1{display: block; background:#ffdf01;border-bottom: 2px solid #eee;width: 100%;height: 55px;font-size: 17px;z-index: 99;border-radius: 5px;}
+    .tog_sub li a{display: block;border-bottom: 1px solid #ddd;font-size: 16px;width: 100%;height: 55px;}
+    .tog_sub li a:hover{background: #ddd;}
+    .tog_sub li{opacity: 0;visibility: hidden;width: 100%;height: 0;}
+    .tog_gnb li:hover .tog_sub li{opacity: 1;visibility: visible;height: 55px;}
+    .tog_ft{width: 100%;height: 50px;position: absolute;bottom: 0}
+    .tog_ft p{float: left;width: 44%;text-align: center;font-size: 1.1em;}
+    
+    .phone{display: none;}
+    .logo img{margin: 0 auto;}
+    .gnb{display: none;}
+    .app_box{bottom: 14.5%;}
+    .hd_ft{display: none;}
+    .sub li a{height: 40px;line-height: 2.5;}
+    .phone{display: none;}
+    .box1{float: left;height: 730px;width: 100%;}
+    .box_iconbox a p{font-size: 1em;text-indent: 20%;}
+    .box2{float: left;height: auto;width: 100%;}
+    .box3{float: left;height: 900px;width: 100%;}
+    .box2_boxwrap{margin-top: 60px;}
+    
+    #easy_pay{background-position: 90% 88%;background-size: 23%;}
+    #manager{background-position: 12% 87%;background-size: 35%;}
+    #product{background-position: 90% 89%;background-size: 22%;}
+    #magazine{background-position: 2% 13%;background-size: 30%;}
+    
+    .card_more{width: 70%;}
+    .cs_tit{font-size: 0.7em;}
+    .cs_num{font-size: 1.5em;text-indent: 21%;}
+    
+}
+
+@media all and (min-width:768px) and (max-width:1024px){
+    
+    html,body{height: 100%;overflow-y: scroll; }
+    .wrap{width: 100%;display: block;height: auto;}
+    .tog_btn{display: block;}
+    .header{float: left;height: 35px;width: 100%;}
+    .logo img{margin: -4% auto;width: 200px;}
+    .phone{display: none;}
+    .app_box{display: none;}
+    .hd_ft{display: none;}
+    .gnb{display: none;}
+    
+    .toggle{position: absolute;top: 0;left: 0%;width: 100%;height: 1024px;background: #fff;z-index: 9999;transition: 0.6s;display: none;}
+    .tog_logo{width:25%;display: block;margin: 6% auto;}
+    .tog_logo img{display: block;width: 100%;}
+    .tog_cls{display: block;position: absolute;width: 50px;height: 50px;left: 3%;top: 1.5%;}
+    .tog_cls img{width: 70%;margin-top: 20%}
+    .tog_btn{display: block;opacity: 9999;top: -80%;width: 50px;}
+    .tog_gnb{width: 70%;margin: 0 auto;position: relative;}
+    .tog_gnb li{width:100%;transition: 0.3s;}
+    .tog_gnb li a{display: block;text-align: center;line-height: 55px;color: #000;}
+    .tog_gnb li .dep1{display: block; background:#ffdf01;border-bottom: 2px solid #eee;width: 100%;height: 55px;font-size: 17px;z-index: 99;border-radius: 5px;}
+    .tog_sub li a{display: block;border-bottom: 1px solid #ddd;font-size: 16px;width: 100%;height: 55px;}
+    .tog_sub li a:hover{background: #ddd;}
+    .tog_sub li{opacity: 0;visibility: hidden;width: 100%;height: 0;}
+    .tog_gnb li:hover .tog_sub li{opacity: 1;visibility: visible;height: 55px;}
+    .tog_ft{width: 100%;height: 50px;position: absolute;bottom: 0}
+    .tog_ft p{float: left;width: 44%;text-align: center;font-size: 1.1em;}
+    
+    .box1{float: left;height: auto;width: 100%;}
+    .box2{float: left;height: auto;width: 100%;}
+    .box3{float: left;height: auto;width: 100%;}
+    
+    .box1_txt{margin-top: -2%;width: 55%;}
+    .box1_phone{width: 40%;margin-left: 52%;margin-top: 5%;}
+    .box_iconbox{width: 55%;}
+    .box_iconbox a p{text-shadow: 2px 1px 2px #000;font-size: 1.7em;background-position: 10% 55%;}
+    
+    .tab_phone{display: block;width:27%;position: absolute;top: 36.5%;left: 20%;}
+    .tab_app_box{width: 60%;z-index: 99;position: absolute;top: 49%;left: 20%;display: block;}
+    .tab_play{margin-bottom: 1%;}
+    .tab_app_box a{display: block;z-index: 9;width: 44%;}
+    .tab_app_box a img{width: 100%;border: 1px solid #696969;}
+    
+    .box2_logo{width: 70%;margin-top: 0%;}
+    .box2_boxwrap{margin-top: 140px;}
+    .service{height: 22%;}
+    .service h2{font-size: 2em;}
+    .service span{font-size: 0.7em;}
+    .service p{font-size: 1.5em;}
+    #easy_pay{background-position: 88%;background-size: 24%;}
+    #manager{background-size: 32%;background-position: 7% 70%}
+    #product{background-position: 93%;background-size: 26%;}
+    #magazine{background-size: 28%;background-position: 7% 70%}
+    .card_wrap{height: 50%;}
+    .card_tit{text-align: center;text-indent: 0;}
+    .wallet ul li{height:auto;}
+    
+    .cs_tit{font-size: 1.5em;text-indent: 0;text-align: center;}
+    .cs_num{font-size: 3em;text-indent: 0%;text-align: center;}
+    .copy{}
+}
+
+@media all and (min-width:1025px) and (max-width:1440px){
+    .wrap{width: 100%;height: 100%;grid-template-rows: 800px;margin: 0 auto;}
+    .logo img{display: block;width: 100px;margin: 15px auto;}
+    .gnb{width: 90%;}
+    .gnb li a{line-height: 40px;}
+    .gnb li .dep1{height: 40px;font-size: 1em;}
+    .sub li a{height: 40px;line-height: 40px;font-size: 0.8em;}
+    .gnb li:hover .sub li{opacity: 1;visibility: visible;height: 35px;}
+    .header{height: 100%;}
+    .hd_ft{height: 20px;}
+    .hd_ft p{width: 40%;font-size: 0.7em;}
+    .app_box{bottom: 7%;}
+    .phone{bottom: 8%;width: 70%;left: calc(50% - 35%);}
+    
+    .box1_txt{width: 70%;}
+    .box_iconbox{}
+    
+    .box2_boxwrap{height: 99%;margin-top: 55px;}
+    .service h2{font-size: 1.1em;}
+    .service span{font-size: 0.9em;}
+    .service p{font-size: 0.9em;line-height: 1.2;}
+    .box_iconbox a p{font-size: 1em;text-indent: 20%;}
+    #easy_pay{background-size: 60px;background-position: 94% 89%;}
+    #manager{background-size: 100px;}
+    #product{background-size: 60px;background-position: 98% 90%;}
+    #magazine{background-size: 100px;background-position: 10% 20%;}
+    
+    .card_tit{flex-shrink: 1.1em;}
+    .wallet ul li a img{width: 60%;}
+    .card_name{font-size: 1em;margin-top: 0;}
+    .card_info{font-size: 0.8em;color: #574601;}
+    .card_more{margin-top: 5px;width: 250px;height: 40px;font-size: 0.9em;line-height: 40px}
+    
+    .btnFrame li button img{height: 70px;}
+    
+    .cs_tit{font-size: 0.8em;}
+    .cs_num{font-size: 1.5em;text-indent: 23%;}
+    .copy{font-size: 0.5em;margin-top: 10%}
+}
+
+
+
