@@ -146,7 +146,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .phone{display: none;}
     .box1{float: left;height: 730px;width: 100%;}
     .box_iconbox a p{font-size: 1em;text-indent: 20%;}
-    .box2{float: left;height: auto;width: 100%;}
+    .box2{float: left;height: 1040px;width: 100%;}
     .box3{float: left;height: 900px;width: 100%;}
     .box2_boxwrap{margin-top: 60px;}
     
@@ -220,7 +220,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .wallet ul li{height:auto;}
     
     .cs_tit{font-size: 1.5em;text-indent: 0;text-align: center;}
-    .cs_num{font-size: 3em;text-indent: 0%;text-align: center;}
+    .cs_num{font-size: 3em;text-indent: 0%;text-align: center;color: #000;}
     .copy{}
 }
 
