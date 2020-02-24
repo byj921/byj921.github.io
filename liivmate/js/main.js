@@ -28,11 +28,19 @@ $(document).ready(function(){
        $(".popBox").fadeOut(); 
     });
     
-    $('.tog_btn').click(function(){
-        $('.toggle').css('display','block');
+    $('.tog_gnb li').click(function(){
+        $('.tog_sub li').toggle('opacity','1');
     });
-    $('.tog_cls').click(function(){
-        $('.toggle').css('display','none');
+    
+     $('.toggle_btn').click(function () {
+        $('.toggle').css('right','0%');
+    });
+    $('.tog_close').click(function () {
+        $('.toggle').css('right','-100%');
+    });
+   
+     $('.tog_dep1').click(function () {
+        $('.tog_sub').toggle('display','block');
     });
     
 });
