@@ -251,8 +251,8 @@ ul,li {list-style: none;}
     .con_title{margin-top: 3%;}
     .content1 div{clear:both;}
     .con1_box{height:200px;width:100%;margin-left:0;margin-top:5%;}
-    #con1_box1 span,#con1_box3 span,#con1_box5 span{margin-top:13%;}
-    #con1_box2 span,#con1_box4 span{margin-top:13%;}
+    #con1_box1 .hov_wrap,#con1_box3 .hov_wrap,#con1_box5 .hov_wrap{margin-top:13%;}
+    #con1_box2 .hov_wrap,#con1_box4 .hov_wrap{margin-top:13%;}
     .con1_more,.hov_more,.hov_txt_bot,.hov_txt_top{display:none;} .con1_more2,.hov_more2,.hov_txt_bot2,.hov_txt_top2{display:none;}
     .hov_wrap{position:relative;}
     .m_title{display:block;position:absolute;top:0;left:0;font-size:20px;padding:5%;color:#fff;font-weight:700;z-index:99;}
@@ -420,4 +420,3 @@ ul,li {list-style: none;}
     .cs2{margin-left: 9%;}
     
 }
-
