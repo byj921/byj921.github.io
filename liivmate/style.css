@@ -133,7 +133,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .tog_sub li a{display: block;border-bottom: 1px solid #ddd;font-size: 16px;width: 100%;height: 55px;}
     .tog_sub li a:hover{background: #ddd;}
     .tog_sub li{opacity: 0;visibility: hidden;width: 100%;height: 0;}
-    .tog_gnb li:hover .tog_sub li{opacity: 1;visibility: visible;height: 55px;}
+    .tog_gnb li:active .tog_sub li{opacity: 1;visibility: visible;height: 55px;}
     .tog_ft{width: 100%;height: 50px;position: absolute;bottom: 0}
     .tog_ft p{float: left;width: 44%;text-align: center;font-size: 1.1em;}
     
