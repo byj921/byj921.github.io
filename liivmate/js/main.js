@@ -21,12 +21,6 @@ $(document).ready(function(){
         prevAni();
         intv = setInterval(function() { nextAni(); }, 2800);
     });
-    $(".popOpenBtn").click(function(){
-       $(".popBox").fadeIn(); 
-    });
-    $(".closeBtn").click(function(){
-       $(".popBox").fadeOut(); 
-    });
     
     $('.tog_gnb li').click(function(){
         $('.tog_sub li').toggle('opacity','1');
@@ -39,8 +33,5 @@ $(document).ready(function(){
         $('.toggle').css('right','-100%');
     });
    
-     $('.tog_dep1').click(function () {
-        $('.tog_sub').toggle('display','block');
-    });
     
 });
