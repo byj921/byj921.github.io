@@ -134,7 +134,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 
 @media (max-width:767px){
     .toggle{width: 100%;display: block;}
-    .toggle_btn{display: block;width: 10%;top: 2%; right: 3%;}
+    .toggle_btn{display: block;width: 9%;top: -0.5%; right: 3%;}
     
     
     .tog_gnb li a.dp1{line-height: 45px;font-size: 1em;}
@@ -147,12 +147,12 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     
     html,body{height: 100%;overflow-y: scroll; }
     .wrap{width: 100%;display: block;overflow: hidden;box-sizing: border-box;height: auto;}
-    .header{float: left;height:130px;width: 100%;}
+    .header{float: left;height:110px;width: 100%;margin-top: 4%;}
     
     .phone{display: none;}
-    .logo img{margin: 0 auto;}
+    .logo img{width: 110px;margin: 0 auto;}
     .gnb{display: none;}
-    .app_box{bottom: 14.5%;}
+    .app_box{bottom: 11%;}
     .hd_ft{display: none;}
     .sub li a{height: 40px;line-height: 2.5;}
     .phone{display: none;}
@@ -170,7 +170,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .card_more{width: 70%;}
     .cs_tit{font-size: 0.7em;}
     .cs_num{font-size: 1.3em;color: #000;}
-    .copy{font-size: 0.5em;margin-top: 6%;}
+    .copy{font-size: 0.5em;margin-top:  6%;}
     #kb_cs{color: #000;}
 }
 
@@ -263,6 +263,4 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .cs_num{font-size: 1.5em;}
     .copy{font-size: 0.5em;margin-top: 10%}
 }
-
-
 
