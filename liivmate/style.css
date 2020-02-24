@@ -134,7 +134,8 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 
 @media (max-width:767px){
     .toggle{width: 100%;display: block;}
-    .toggle_btn{display: block;width: 9%;top: -0.5%; right: 3%;}
+    .toggle_btn{display: block;width: 9%;top: 25.5%; right: 3%;}
+    
     
     .tog_gnb li a.dp1{line-height: 45px;font-size: 1em;}
     .tog_sub li a{line-height: 45px;height: 45px;font-size: 1em;}
@@ -146,16 +147,18 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     
     html,body{height: 100%;overflow-y: scroll; }
     .wrap{width: 100%;display: block;overflow: hidden;box-sizing: border-box;height: auto;}
-    .header{float: left;height:110px;width: 100%;margin-top: 4%;background:red;}
+    .header{float: left;height:150px;width: 100%;margin-top: 0; background-image: url(img/box1_topline.png);background-size: 100%    ;background-position: 1% 0;background-repeat: no-repeat;}
     
     .phone{display: none;}
+    .logo{margin-top: 10%;}
     .logo img{width: 110px;margin: 0 auto;}
     .gnb{display: none;}
-    .app_box{bottom: 11%;}
+    .app_box{bottom: 9%;}
     .hd_ft{display: none;}
     .sub li a{height: 40px;line-height: 2.5;}
     .phone{display: none;}
-    .box1{float: left;height: 730px;width: 100%;}
+    .box1{float: left;height: 730px;width: 100%;border-top: 7px solid #e2c343;}
+    .top_line{display: none;}
     .box_iconbox a p{font-size: 1em;text-indent: 20%;}
     .box2{float: left;height: 1040px;width: 100%;}
     .box3{float: left;height: 730px;width: 100%;}
@@ -174,14 +177,14 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 }
 
 @media all and (min-width:768px) and (max-width:1024px){
-    .toggle_btn{display: block;top: -70%;right: 3%;}
+    html,body{height: 100%;overflow-y: scroll; }
+    .toggle_btn{width: 65px;display: block;top: 84px;right: 2.5%;}
     .toggle{width: 100%;display: block;}
     
-    html,body{height: 100%;overflow-y: scroll; }
     .wrap{width: 100%;display: block;height: auto;}
     .tog_btn{display: block;}
-    .header{float: left;height: 35px;width: 100%;}
-    .logo img{margin: -4% auto;width: 190px;}
+    .header{float: left;height:165px;width: 100%;background-image: url(img/box1_topline.png);background-repeat: no-repeat;background-size: 100%;background-position: 0 0;margin-top: 0;}
+    .logo img{margin: 85px auto;width: 230px;}
     .phone{display: none;}
     .app_box{display: none;}
     .hd_ft{display: none;}
@@ -191,8 +194,9 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .box2{float: left;height: auto;width: 100%;}
     .box3{float: left;height: auto;width: 100%;}
     
-    .box1_txt{margin-top: -2%;width: 55%;}
+    .box1_txt{margin-top: 2%;width: 55%;}
     .box1_phone{width: 40%;margin-left: 52%;margin-top: 5%;}
+    .top_line{display: none;}
     .box_iconbox{width: 55%;}
     .box_iconbox a p{text-shadow: 2px 1px 2px #000;font-size: 1.7em;background-position: 10% 55%;background-position: 0% 55%}
     
@@ -215,7 +219,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .card_wrap{height: 50%;}
     .card_tit{text-align: center;text-indent: 0;}
     .wallet ul li{height:auto;}
-  
+    
     .cs_tit{font-size: 1.5em;}
     .cs_num{font-size: 3em;}
 }
@@ -261,3 +265,4 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .cs_num{font-size: 1.5em;}
     .copy{font-size: 0.5em;margin-top: 10%}
 }
+
