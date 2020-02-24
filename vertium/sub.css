@@ -37,7 +37,7 @@ ul,li {list-style: none;}
 .con1_backmenu{width:100%;height:50px;background:#ddd;}
 .con1_backmenu ul{width:360px;height: 50px;position: absolute;left: 15%;}
 .con1_backmenu ul li{width:33%;height:100%;float:left;line-height:55px;text-align:center;}
-.con1_backmenu ul li img{width: 24%;margin-top: 8%;}
+.con1_backmenu ul li img{height: 50%;margin-top: 10%;}
 .con1_backmenu ul li a{display:block;width:100%;height:100%;color:#404040;font-size:15px;line-height: 52px;}
 .con1_backmenu ul li a:hover{color:#000;}
 
@@ -93,9 +93,8 @@ button{outline:0;border:none;}
 .ft_menu a{display:block;float:left;margin-left:4%;color:#d9d6d6;}
 .copyright{width:32%;color:#fff;font-size:14px;position: absolute;bottom: 1%;left: calc(50% - 16%);}
 
-.fam_site{position: absolute;top: 17%;right: 5%;display: block;width: 170px;height: 25px;color: #6f6f6f;}
+.fam_site{position: absolute;top: 17%;right: 5%;display: block;width: 150px;height: 25px;color: #6f6f6f;background: #fff;text-indent: 6%;}
 .fam_site option{display: block;width: 100px;height: 30px;}
-
 
 .ft_wa{width: 4%;position:absolute;display:block;bottom:20%;right:53%;}
 .ft_wa img{width: 100%;}
@@ -148,11 +147,7 @@ button{outline:0;border:none;}
     .logo img{width:100%;}
     .gnb{display:none;}
     
-    
     .con1_backmenu ul{left: 0;}
-    .con1_backmenu ul li img{width: 27px;margin-top: 5%;}
-
-    
     .con1 h2{font-size: 25px;}
     .con1 p{margin-top: 0px}
     .con1_box{width: 94%;}
@@ -212,7 +207,8 @@ button{outline:0;border:none;}
     .logo{top: 13%;left: calc(50% - 55px);}
     .gnb{display: none;}
     
-    .con1_backmenu ul{left: 0;}
+    .con1_backmenu ul{left: 0;width: 100%;}
+    .con1_backmenu .con1_home{width: 90%;}
     .con1 h2{font-size: 1.6em;margin-top: 7%;}
     .con1_tit span{width: 85px;margin-top: 10%;}
     .con1_tit p{line-height: 3;}
@@ -227,8 +223,8 @@ button{outline:0;border:none;}
     .lst_txt{display: none;}
     .mix .lst_flag{height: 50px;width: 50px;line-height: 3.6;}
     .mix .lst_name{font-size: 0.9em;}
-    .mix .lst_tit{font-size: 1em;line-height: 2;}
-    .mix .lst_num{font-size: 1.4em;text-indent: 5%;background-position: 8%;background-size: 10%;line-height:1.5;}
+    .mix .lst_tit{font-size: 0.9em;line-height: 2;}
+    .mix .lst_num{font-size: 1.2em;text-indent: 5%;background-position: 8%;background-size: 10%;line-height:2.7;}
     .lst_button{bottom: 18%;}
     .lst_button a{width: 80%;line-height: 2;height: 30px;clear: both;margin-top: 3%;margin-left: 10%;font-size: 0.8em;line-height: 2.5;}
     
@@ -262,5 +258,10 @@ button{outline:0;border:none;}
     .mix .lst_tit{line-height: 1.3;}
     .mix .lst_button{bottom: 4%;}
     .fam_site{display: block;}
+    
+    .cs_women{left: 20%;}
+    .cs1{margin-left: 28%;}
+    .cs2{margin-left: 9%;}
+    
 }
 
