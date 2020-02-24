@@ -113,29 +113,44 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 .tab_app_box{display: none;}
 .tab_phone{display: none;}
 
+    .toggle{display:none;} .tog_close{display:block;width:5%;height:4%;position:absolute;left:3%;top:2%;z-index:999;}
+    .tog_close img{display:block;width:100%;}
+    .cls_btn{display:none;}
+    .toggle_btn{width:6%;position:absolute;right:2%;top:0%;display:none;}
+    .toggle_btn img{width:100%;} .toggle{width:60%;height:100%;position:fixed;right:-100%;top:0;z-index:999;background:#f2f2f2;transition:1s;display:block;overflow: scroll;}
+   
+    
+    .tog_gnb {width: 80%;height:100%; margin:0 auto; margin-top:20%;display: block;}
+.tog_gnb li { position:relative;border-bottom: 1px solid #ddd;}
+.tog_gnb li a { display:block; text-align:center;font-size:16px; font-weight:bold;background: #ffe21c; color:#333333;}
+.tog_gnb li a.dp1 {font-size:1.2em;color: #000;font-weight: bold;border-bottom: 2px solid #fff;background: #ffe21c;line-height: 65px;}
+.tog_gnb li .tog_sub {transition:0.6s; height:0;  overflow:hidden; }
+.tog_sub li a{height: 65px;line-height: 65px;background: #fff;}
+.tog_gnb li.item1:hover .tog_sub { height:65px; }
+.tog_gnb li.item2:hover .tog_sub { height:260px; }
+.tog_gnb li.item3:hover .tog_sub { height:65px; }
+.tog_gnb li.item4:hover .tog_sub { height:195px; }
+    
+.tog_gnb li:hover a.dp1 { background-color:#151514; color:#ffffff; }
+.tog_gnb li .tog_sub a:hover { background-color:#666666; color:#ffffff; }
+
 
 @media (max-width:767px){
+    
+    .toggle_btn{display: block;width: 10%;top: 2%; right: 3%;}
+    .toggle{width: 100%;}
+    
+    .tog_gnb li a.dp1{line-height: 45px;font-size: 1em;}
+    .tog_sub li a{line-height: 45px;height: 45px;font-size: 1em;}
+    
+    .tog_gnb li.item1:hover .tog_sub { height:45px; }
+    .tog_gnb li.item2:hover .tog_sub { height:180px; }
+    .tog_gnb li.item3:hover .tog_sub { height:45px; }
+    .tog_gnb li.item4:hover .tog_sub { height:135px; }
     
     html,body{height: 100%;overflow-y: scroll; }
     .wrap{width: 100%;display: block;overflow: hidden;box-sizing: border-box;height: auto;}
     .header{float: left;height:130px;width: 100%;}
-    
-    .toggle{position: absolute;top: 0;left: 0%;width: 100%;height: 667px;background: #fff;z-index: 9999;transition: 0.6s;display: none;}
-    .tog_logo{width:150px;display: block;margin: 6% auto;}
-    .tog_logo img{display: block;width: 100%;}
-    .tog_cls{display: block;position: absolute;width: 40px;height: 40px;left: 3%;top: 1.5%;}
-    .tog_cls img{width: 70%;margin-top: 20%}
-    .tog_btn{display: block;opacity: 9999;}
-    .tog_gnb{width: 70%;margin: 0 auto;position: relative;}
-    .tog_gnb li{width:100%;transition: 0.3s;}
-    .tog_gnb li a{display: block;text-align: center;line-height: 55px;color: #000;}
-    .tog_gnb li .dep1{display: block; background:#ffdf01;border-bottom: 2px solid #eee;width: 100%;height: 55px;font-size: 17px;z-index: 99;border-radius: 5px;}
-    .tog_sub li a{display: block;border-bottom: 1px solid #ddd;font-size: 16px;width: 100%;height: 55px;}
-    .tog_sub li a:hover{background: #ddd;}
-    .tog_sub li{opacity: 0;visibility: hidden;width: 100%;height: 0;}
-    .tog_gnb li:active .tog_sub li{opacity: 1;visibility: visible;height: 55px;}
-    .tog_ft{width: 100%;height: 50px;position: absolute;bottom: 0}
-    .tog_ft p{float: left;width: 44%;text-align: center;font-size: 1.1em;}
     
     .phone{display: none;}
     .logo img{margin: 0 auto;}
@@ -162,6 +177,9 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 }
 
 @media all and (min-width:768px) and (max-width:1024px){
+    .toggle_btn{display: block;top: -70%;right: 3%;}
+    .toggle{width: 100%;}
+    
     
     html,body{height: 100%;overflow-y: scroll; }
     .wrap{width: 100%;display: block;height: auto;}
@@ -173,22 +191,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .hd_ft{display: none;}
     .gnb{display: none;}
     
-    .toggle{position: absolute;top: 0;left: 0%;width: 100%;height: 1024px;background: #fff;z-index: 9999;transition: 0.6s;display: none;}
-    .tog_logo{width:25%;display: block;margin: 6% auto;}
-    .tog_logo img{display: block;width: 100%;}
-    .tog_cls{display: block;position: absolute;width: 50px;height: 50px;left: 3%;top: 1.5%;}
-    .tog_cls img{width: 70%;margin-top: 20%}
-    .tog_btn{display: block;opacity: 9999;top: -80%;width: 50px;}
-    .tog_gnb{width: 70%;margin: 0 auto;position: relative;}
-    .tog_gnb li{width:100%;transition: 0.3s;}
-    .tog_gnb li a{display: block;text-align: center;line-height: 55px;color: #000;}
-    .tog_gnb li .dep1{display: block; background:#ffdf01;border-bottom: 2px solid #eee;width: 100%;height: 55px;font-size: 17px;z-index: 99;border-radius: 5px;}
-    .tog_sub li a{display: block;border-bottom: 1px solid #ddd;font-size: 16px;width: 100%;height: 55px;}
-    .tog_sub li a:hover{background: #ddd;}
-    .tog_sub li{opacity: 0;visibility: hidden;width: 100%;height: 0;}
-    .tog_gnb li:hover .tog_sub li{opacity: 1;visibility: visible;height: 55px;}
-    .tog_ft{width: 100%;height: 50px;position: absolute;bottom: 0}
-    .tog_ft p{float: left;width: 44%;text-align: center;font-size: 1.1em;}
+    
     
     .box1{float: left;height: auto;width: 100%;}
     .box2{float: left;height: auto;width: 100%;}
@@ -225,6 +228,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 }
 
 @media all and (min-width:1025px) and (max-width:1440px){
+    .toggle_btn{display: none;}
     .wrap{width: 100%;height: 100%;grid-template-rows: 800px;margin: 0 auto;}
     .logo img{display: block;width: 100px;margin: 15px auto;}
     .gnb{width: 90%;}
