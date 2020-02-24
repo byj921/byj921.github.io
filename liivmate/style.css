@@ -41,7 +41,7 @@ button{background: none;border: none;}
 .box1 a{display: block;}
 .box_iconbox{width: 90%;height: 320px;margin: 0 auto;}
 .box_iconbox a{display: block;width: 50%;height: 100%;float: left;}
-.box_iconbox a p{text-align: center;color: #ffce00;font-size: 1.2em;line-height: 3;background-image: url(img/box1_bott_ico.png);background-repeat: no-repeat;background-position: 13% 60%;background-size: 13%;text-indent: 10%;text-shadow: 1px 1px 1px #626262;}
+.box_iconbox a p{text-align: center;color: #434242;font-size: 1.2em;line-height: 3;background-image: url(img/box1_bott_ico.png);background-repeat: no-repeat;background-position: 13% 53%;background-size: 13%;text-indent: 10%;text-shadow: 1px 1px 1px #d6ad00;}
 .box_iconbox a img{display: block; width: 70%;margin: 0 auto;}
 
 .box2{background-image: url(img/box2_back.png);background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;}
@@ -51,7 +51,7 @@ button{background: none;border: none;}
 .service{display: block;width: 90%; height: 21%;margin: 15px auto;background: #fbf9ec;box-shadow: 2px 2px 5px #ccc;}
 .service h2{font-size: 25px;padding: 10px;color: #262626;padding-top: 20px;}
 .service span{font-size: 17px;color: #e65000;font-weight: lighter;}
-.service p{font-size: 18px; margin-left: 25px;margin-top: 10px; color: #2c2c2c;}
+.service p{font-size: 20px; margin-left: 25px;margin-top: 10px; color: #2c2c2c;line-height: 1.5;}
 
 #easy_pay{background-image: url(img/barcode_img.png);background-repeat:no-repeat;background-size: 125px auto;background-position: 330px 30px;}
 #easy_pay h2{text-indent: 20px;}
@@ -160,20 +160,30 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .box1{float: left;height: 730px;width: 100%;border-top: 7px solid #e2c343;}
     .top_line{display: none;}
     .box_iconbox a p{font-size: 1em;text-indent: 20%;}
-    .box2{float: left;height: 1040px;width: 100%;}
+    .box2{float: left;height: 940px;width: 100%;}
     .box3{float: left;height: 730px;width: 100%;}
     .box2_boxwrap{margin-top: 60px;}
+    .service{height: 200px;}
+    .service h2{font-size: 1.3em;}
+    .service p{font-size: 1em;}
+    #easy_pay{background-position: 90% 88%;background-size: 22%;}
+    #manager{background-position: 12% 87%;background-size: 31%;}
+    #product{background-position: 90% 89%;background-size: 21%;}
+    #magazine{background-position: 5% 10%;background-size: 27%;}
+    .card_name{font-size: 1.2em;}
+    .card_more{margin-top: 1%;height: 35px;line-height: 2.5;}
     
-    #easy_pay{background-position: 90% 88%;background-size: 23%;}
-    #manager{background-position: 12% 87%;background-size: 35%;}
-    #product{background-position: 90% 89%;background-size: 22%;}
-    #magazine{background-position: 2% 13%;background-size: 30%;}
     
     .card_more{width: 70%;}
     .cs_tit{font-size: 0.7em;}
     .cs_num{font-size: 1.3em;color: #000;}
     .copy{font-size: 0.5em;margin-top: 5%;}
     #kb_cs{color: #000;}
+    
+    .btnFrame .left{left: -3%;}
+    .btnFrame .right{right: -1.8%;}
+    
+    
 }
 
 @media all and (min-width:768px) and (max-width:1024px){
@@ -246,7 +256,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .box2_boxwrap{height: 99%;margin-top: 55px;}
     .service h2{font-size: 1.1em;}
     .service span{font-size: 0.9em;}
-    .service p{font-size: 0.9em;line-height: 1.2;}
+    .service p{font-size: 1em;line-height: 1.2;}
     .box_iconbox a p{font-size: 1em;text-indent: 20%;}
     #easy_pay{background-size: 60px;background-position: 94% 89%;}
     #manager{background-size: 100px;}
