@@ -169,9 +169,9 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     
     .card_more{width: 70%;}
     .cs_tit{font-size: 0.7em;}
-    .cs_num{font-size: 1.5em;text-indent: 21%;}
+    .cs_num{font-size: 1.4em;text-indent: 21%;}
     .copy{font-size: 0.5em;margin-top: 30%;}
-    
+    #kb_cs{color: #000;}
 }
 
 @media all and (min-width:768px) and (max-width:1024px){
@@ -266,6 +266,4 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .cs_num{font-size: 1.5em;text-indent: 23%;}
     .copy{font-size: 0.5em;margin-top: 10%}
 }
-
-
 
