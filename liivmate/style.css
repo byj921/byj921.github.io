@@ -101,10 +101,10 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
 .ft_kb_logo{width: 20%;display: block;}
 .ft_liiv_logo{width: 50%;}
 .cs_box div{float: left;}
-.liiv_cs{width: 48%;}
-.kb_cs{width: 51%;border-left: 1px solid #c3c1c1;float: left;}
-.cs_tit{color: #000;text-indent: 22%; line-height: 2;}
-.cs_num{color: #000;font-size: 2.3em;line-height: 1.3; font-weight: 900;text-indent: 18%;}
+.liiv_cs{width: 50%;}
+.kb_cs{width: 49%;border-left: 1px solid #c3c1c1;float: left;}
+.cs_tit{color: #000;text-align: center;line-height: 2;width: 100%;}
+.cs_num{color: #000;font-size: 2.2em;line-height: 1.5; font-weight: 900;width: 100%;text-align: center;}
 .copy{width: 100%;height: 5%;color: #aaa;display: block;text-align: center;float: left;margin-top: 8%;}
 
 .tab_app_box{display: none;}
@@ -169,7 +169,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     
     .card_more{width: 70%;}
     .cs_tit{font-size: 0.7em;}
-    .cs_num{font-size: 1.4em;text-indent: 21%;}
+    .cs_num{font-size: 1.3em;color: #000;}
     .copy{font-size: 0.5em;margin-top: 30%;}
     #kb_cs{color: #000;}
 }
@@ -188,8 +188,6 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .app_box{display: none;}
     .hd_ft{display: none;}
     .gnb{display: none;}
-    
-    
     
     .box1{float: left;height: auto;width: 100%;}
     .box2{float: left;height: auto;width: 100%;}
@@ -220,9 +218,8 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .card_tit{text-align: center;text-indent: 0;}
     .wallet ul li{height:auto;}
     
-    .cs_tit{font-size: 1.5em;text-indent: 0;text-align: center;}
-    .cs_num{font-size: 3em;text-indent: 0%;text-align: center;color: #000;}
-    .copy{}
+    .cs_tit{font-size: 1.5em;}
+    .cs_num{font-size: 3em;}
 }
 
 @media all and (min-width:1025px) and (max-width:1440px){
@@ -263,7 +260,9 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .btnFrame li button img{height: 70px;}
     
     .cs_tit{font-size: 0.8em;}
-    .cs_num{font-size: 1.5em;text-indent: 23%;}
+    .cs_num{font-size: 1.5em;}
     .copy{font-size: 0.5em;margin-top: 10%}
 }
+
+
 
