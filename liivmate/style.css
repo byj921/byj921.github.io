@@ -10,9 +10,6 @@ button{background: none;border: none;}
 .wrap{width: 100%;display: grid;grid-template-columns: 19% 27% 27% 27%;grid-template-rows: 1080px;grid-gap: 1px;overflow: hidden;box-sizing: border-box;}
 .header{background: #fff;position: relative;margin-top: 6%;height: 100%;}
 
-.tog_btn{position: absolute;right: 3%;top: -0.6%; display: block;width: 40px;height: 40px;display: none;z-index: 999;}
-.tog_btn img{display: block;width: 100%;}
-.toggle{display: none;}
 
 .header .logo{display: block;}
 .logo img{display: block;width: 150px;margin: 30px auto;}
@@ -116,16 +113,17 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .toggle{display:none;} .tog_close{display:block;width:5%;height:4%;position:absolute;left:3%;top:2%;z-index:999;}
     .tog_close img{display:block;width:100%;}
     .cls_btn{display:none;}
+    .tog_logo{display: block;width: 26%;position: absolute;top: 8%;left: calc(50% - 13%);}
     .toggle_btn{width:6%;position:absolute;right:2%;top:0%;display:none;}
     .toggle_btn img{width:100%;} .toggle{width:60%;height:100%;position:fixed;right:-100%;top:0;z-index:999;background:#f2f2f2;transition:1s;display:block;overflow: scroll;}
    
     
-    .tog_gnb {width: 80%;height:100%; margin:0 auto; margin-top:20%;display: block;}
+    .tog_gnb {width: 80%;height:100%; margin:0 auto; margin-top:28%;display: block;}
 .tog_gnb li { position:relative;border-bottom: 1px solid #ddd;}
-.tog_gnb li a { display:block; text-align:center;font-size:16px; font-weight:bold;background: #ffe21c; color:#333333;}
-.tog_gnb li a.dp1 {font-size:1.2em;color: #000;font-weight: bold;border-bottom: 2px solid #fff;background: #ffe21c;line-height: 65px;}
+.tog_gnb li a { display:block; text-align:center;font-size:16px; font-weight:normal;background: #ffe21c; color:#333333;}
+.tog_gnb li a.dp1 {font-size:1.2em;color: #000;font-weight: normal;border-bottom: 2px solid #fff;background: #ffe21c;line-height: 65px;}
 .tog_gnb li .tog_sub {transition:0.6s; height:0;  overflow:hidden; }
-.tog_sub li a{height: 65px;line-height: 65px;background: #fff;}
+.tog_sub li a{height: 65px;line-height: 65px;background: #fff;font-weight: normal;}
 .tog_gnb li.item1:hover .tog_sub { height:65px; }
 .tog_gnb li.item2:hover .tog_sub { height:260px; }
 .tog_gnb li.item3:hover .tog_sub { height:65px; }
