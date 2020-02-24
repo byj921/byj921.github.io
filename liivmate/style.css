@@ -170,7 +170,7 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .card_more{width: 70%;}
     .cs_tit{font-size: 0.7em;}
     .cs_num{font-size: 1.3em;color: #000;}
-    .copy{font-size: 0.5em;margin-top:  6%;}
+    .copy{font-size: 0.5em;margin-top: 5%;}
     #kb_cs{color: #000;}
 }
 
@@ -263,4 +263,3 @@ background-image: url(img/siren_img.png);background-size: 150px;background-repea
     .cs_num{font-size: 1.5em;}
     .copy{font-size: 0.5em;margin-top: 10%}
 }
-
