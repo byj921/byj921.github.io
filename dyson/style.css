@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 *{margin: 0;padding: 0;box-sizing: border-box;}
-body,html{width: 100%;height: 100%;overflow-x:hidden !important;font-family: 'Nanum Square';sans-serif,'Doutm'}
+body,html{width: 100%;height: 100%;overflow-x:hidden !important;font-family: 'Nanum Square',sans-serif;}
 a{text-decoration: none;}
 ul{list-style: none;}
 
