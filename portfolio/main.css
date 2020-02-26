@@ -1,0 +1,223 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+*{margin: 0;padding: 0;}
+body,html{width: 100%;height: 100%;overflow-x: hidden;box-sizing: border-box;scroll-behavior: smooth;font-family: 'NanumSquare', sans-serif;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+
+
+.new_main{width: 100%;height: 1080px;background-image: url(img/main_bg.png);background-position:center;background-repeat: no-repeat;background-size: cover;position: relative;float: left;overflow: hidden;}
+.main_wrap{z-index: 999;background-image: url(img/main_name.png);background-position: center;width: 100%;height: 100%;position: relative;background-size: 80%;}
+.neck_card{display: block;position: absolute;left: 35%;top: -8%; width: 160px;height: 495px;transition: 0.4s;background-image: url(img/neck_card.png);background-repeat: no-repeat;background-position: center;background-size: 100%;z-index: 9999;}
+.neck_card:hover{top: -0.5%;}
+.neck_card p{font-size: 0.9em;position: absolute;top: 3%;left: 8.5%;color: #0202bf;font-weight: bold;background: rgba(255, 255, 255,0.5);}
+
+header{width: 100%;height: 170px;position: relative;}
+.hd_txt{position: absolute;left: 9%;height: 170px;width: 350px;color: #000;font-size: 1.2em;line-height: 7.5}
+.hd_txt span{font-weight: bold;}
+
+.sec_nav{position: absolute;width: 500px;height: 30px;top: 5.3%;right: 8%;}
+.sec_nav ul li{float: left;width: 24.7%;}
+.sec_nav ul li button{display: block;width: 100%;height: 30px;text-align: center;line-height: 32px;color: #000;font-size: 1em;transition: 0.2s;font-weight: 100;text-shadow: 0px 10px 1px #ddd;background: none;border: none;}
+.sec_nav ul li button:hover{text-shadow: 2px 2px 2px #aaa;cursor: pointer;}
+#main_nav{top: 55px;}
+#main_nav ul li button{font-weight: 400;}
+
+.main_txt{font-size: 4.4em;letter-spacing: -2px;font-weight: 100;width: 780px;height: 160px;margin-top: 16%;margin-left: 38%; line-height: 1.3;text-align: right;}
+.main_txt::after{}
+.main_txt .main_name{font-weight: 400;letter-spacing: 5px;position: relative;text-shadow: 10px 5px 1px #ddd;}
+.main_txt .comma{font-weight: 400;}
+.main_name::after{content: "";width: 185px;height: 1px;background: #000;position: absolute;right: 2%;bottom: 30%;}
+
+.phone{display: block;width: 5%;height: 13%;position: absolute;bottom: 5%;right: 8.5%;cursor: pointer;z-index: 99;}
+.phone img{display: block;height: 100%;cursor: pointer;}
+.phone_num{width: 15%;height: 10%;background: #fff;position: absolute;right: 10.5%;bottom: 6.6%;transition: 0.3s;opacity: 0;}
+.phone:hover ~ .phone_num{opacity: 1;}
+.phone_num p{font-size: 1.5em;text-align: center;line-height: 2.3;}
+
+.main{display: none;}
+
+
+
+
+.wrap{position: relative;width: 100%;height: 100%;}
+
+
+
+/*aboutme*/
+
+.aboutme{width: 100%;height: 1080px;background: #fff;position: relative;box-sizing: border-box;overflow: hidden;float: left;}
+.aboutme_bg{width: 100%;height: 100%;background-image: url(img/about_me_bg.png);background-repeat: no-repeat;background-position: center;background-size: cover;}
+.sec_tit{position: absolute;width: 135px;left: 9%;top: 55px;font-size: 1.5em;font-weight: 100;text-shadow: 0px 10px 0px #ddd}
+#test_box{display: block;position: absolute;top: 0;right: 10%;z-index: 99999;background: red;line-height: 5;width: 100px;height: 100px;}
+
+
+.back_txt{position: absolute;top: 30%;left: 19%;opacity: 0.3;}
+.back_txt2{position: absolute;top: 38%;left: 19%;opacity: 0.2;}
+.back_txt3{position: absolute;top: 46%;left: 19%;opacity: 0.1;}
+
+.me_txt{width: 550px;height: 220px;float: left;background: rgba(255, 255, 255,0.6);position: absolute;left: 11%;top: 20%;z-index: 99;}
+.me_txt p{font-size: 1.5em;font-weight: bold;line-height: 1.5;text-shadow: 1px 1px rgba(217, 0, 0, 0.2);}
+.me_txt p span{font-size: 0.7em;margin-right: 4%;color: #d90000;}
+.name{margin-top: 5%;}
+.eng_name{margin-left: 13%;}
+
+.img_box{width: 1250px;height: 650px;position: absolute;left: 40%;top: 25%;}
+.me{width: 90%;height: 90%;display: block;z-index: 999;position: absolute;width: 23%;height: 54%;}
+.profile_img{display: block;width: 20%;position: absolute;z-index: 999;left: 1.7%;bottom: 50%;}
+
+.back_holo{width: 24%;height: 58%;opacity: 0.1;position: absolute;left: 1%;}
+
+
+.skill{width: 590px;height: 50%;position: absolute;right: 4%;top: 27%;}
+.skill_graph{display: block;width: 100%;}
+
+.career{width: 490px;height: 38%;position: relative;left: 9%; top: 47%;background: rgba(255, 255, 255,0.6);}
+.career_wrap{width: 90%;height: 90%;position: absolute;left: 12.5%;top: 7%;}
+
+.career_tit span{color: #d90000;font-weight: bold;font-size: 0.9em;}
+.career p{font-size: 1.4em;font-weight: bold;text-shadow: 1px 1px rgba(217, 0, 0, 0.2);}
+.career p span{text-indent: -5%; display: block;}
+.license{margin-top: 0%;}
+.license_tit span{margin-top: 5%;color: #d90000;font-weight: bold;font-size: 0.9em;}
+.history2{margin-top: 5%;}
+
+.aboutme_circle{
+    display: block;
+    position: absolute;
+    left: 2%;
+    top: 6%;
+    border: 0.5px solid #ff9292;
+    width: 90%;
+    height: 85%;
+    border-radius: 40%;
+    ;-webkit-animation: aboutme 30s infinite linear;
+}
+
+@-webkit-keyframes aboutme {
+    from {-webkit-transform: rotate(0deg);}
+    to   {-webkit-transform: rotate(359deg);}
+}
+
+.sec_nav{position: absolute;width: 500px;height: 30px;top: 55px;right: 8%;}
+.sec_nav ul li{float: left;width: 24.7%;}
+.sec_nav ul li a{display: block;width: 100%;height: 30px;text-align: center;line-height: 32px;color: #000;font-size: 1em;transition: 0.2s;font-weight: 200;text-shadow: 0px 10px 1px #ddd;}
+.sec_nav ul li a:hover{text-shadow: 2px 2px 2px #aaa;}
+
+/*port*/
+.port{width: 100%;height: 1080px;background-image: url(img/main_bg.png);background-repeat: no-repeat;background-size: cover;background-position: center;position: relative;float: left;}
+.port_title{position: absolute;width: 138px;left: 9.5%;top: 4%;}
+.port_box_wrap{width: 1100px;height: 100%;margin: 0 auto;background: rgba(255,255,255,0.3);}
+.port_box_wrap ul li{float: left;width: 340px;height: 650px;background: #fff;box-shadow: 2px 2px 30px #ccc;margin-left: 2%;position: relative;}
+.port_box_wrap ul li div{float: left;}
+.port_box1{margin-top: 32%;}
+.port_box2{margin-top: 25%;}
+.port_box3{margin-top: 17%;}
+
+.port_box{width: 100%;height: 320px;margin-top: 5%;}
+.mockup{width: 320px;height: 210px;background-image: url(img/imac_screen.png);background-size: 90% 102%;background-repeat: no-repeat;background-position: center;position: relative;transition: 0.5s;left: calc(50% - 160px);top: -3%;}
+.screen{background: red;position: absolute;top: 0;left: 7.5%;top:3.8%;width: 85%;height: 61%;overflow: hidden;}
+.screen_shot{width: 100%;position: absolute;bottom: -384%;transition: 2.3s;}
+.screen_shot2{width: 100%;position: absolute;bottom: -339%;transition: 2.3s;}
+.screen_shot3{display: block; width: 100%;position: absolute;bottom: -17%;transition: 1s;}
+
+.mockup:hover{transform: scale(1.05);}
+.port_num{display: block;width: 13%;position: absolute;right: 2%;top: -4%;z-index:9;}
+.port_tit{font-size: 1.25em;font-weight: bold;margin-left: 5.5%;margin-top: 1%;position: relative;clear: both;}
+.chrome_logo{display: block;width: 80px;float: left;margin-top: 1%}
+.port_tit2{font-size: 1em;margin-left: 5.5%;line-height: 2;font-weight: bold;margin-bottom: 3%;color: #351089;z-index: 99;text-shadow: 2px 2px 3px #ccc;}
+.respon{width: 25%;margin-left: 6%;margin-top: 0%;z-index: -1;float: left;margin-right: 3%}
+
+.web{height: 90%;margin-left: 6%;}
+.tab{height: 70%;margin-left: 2%;}
+.mob{height: 90%;margin-left: 2%;}
+
+.port_txt_box{width: 90%;height: 100px;margin-left: 5%;}
+.port_txt{display: block;width: 88%;height: 22%;;margin: 0 auto;text-align: center;line-height: 2;font-size: 0.9em;border-top: 3px solid #ddd;border-bottom: 3px solid #ddd;margin-top: -2%;}
+.port_txt2{color: red;z-index:999999;}
+.txt_percent{text-align: center;font-size: 0.9em;font-weight: bold;color: #c70000;line-height: 2;}
+
+.hp_link{display: block;width: 43%;height: 25px;margin: 0% auto;margin-left: 6%;border-radius: 5px 5px;background: #000;color: #fff;font-size: 0.9em;text-align: center;line-height: 25px;border: 1px solid transparent;transition: 0.1s;float: left;}
+#hp_link2{margin-left: 1%;background: #000;}
+#hp_link3{margin-left: 1%;background: #000;}
+#liiv_hp_link{width: 87.5%;}
+.hp_link:hover{border: 1px solid #000;background: #fff;color: #000}
+#hp_link2:hover{border: 1px solid #000;background: #fff;color: #000}
+#hp_link3:hover{border: 1px solid #000;background: #fff;color: #000}
+.port_info_box1{height: 130px;width: 90%;margin-left: 5%;}
+.port_info_box2{width: 100%;border-top: 1px solid #ddd;}
+
+.port_info1{width: 97%;clear: both;font-size: 0.8em;margin: 2.5% auto;display: block;line-height: 1.6;color: #000;text-align: left;font-weight: 400;}
+.port_info1 mark{background: rgba(88, 22, 239,0.2);}
+.port_info2{width: 90%;clear: both;font-size: 0.8em;margin: 0 auto;display: block;line-height: 1.4;color: #626262;text-align: left;font-weight: 300;margin-top: 1.5%;}
+.port_info2 span{display: block;text-indent: 2%;}
+
+/*.port_info2 span::after{content: ""; display: block;background: rgba(88, 22, 239,0.2);width: 260px;height: 15px;position: absolute;bottom: 1.7%;left: 16%;}*/
+
+/*portfolio*/
+.portfolio{width: 100%;height: 1080px;overflow: hidden;background: #eee;position: relative;}
+
+.project_wrap{width: 96%;height: 100%;margin: 0 auto;position: relative;}
+.project_wrap ul{width: 100%;height: 100%;position: absolute;}
+.project_wrap ul li{width: 19%;height: 10%;float: left;margin-right: 3%;position: absolute;position: relative;}
+.project_wrap ul li a{display: block; width: 100%;height: 100%;display: block;background: #fff;}
+
+.project1{left: 35%;top: 11%;}
+.project2{left: 56%;top: 7%;}
+.project3{left: 77%;top: 3%;}
+
+.project4{left: 35%;top: 55%;}
+.project5{left: 56%;top: 51%;}
+.project6{left: 77%;top: 47%;}
+
+
+/*contact_me*/
+.contact_me{width: 100%;height: 820px;position: relative;float: left;}
+.thank{position: absolute;width: 410px;font-size: 6em;letter-spacing: -5px;color: #ebebeb;display: block;opacity: 0.5;left: calc(50% - 205px);top: 120px;font-style: italic;z-index: -1;}
+.contact_wrap{width: 1000px;height: 94%;margin: 0 auto;}
+.contact_txt{float: left;width: 100%;height: 100px;text-align: center;margin-top: 21.3%;z-index: 9;}
+.resume_txt{font-size: 1.2em;letter-spacing: 2px;line-height: 1.6;}
+.namecard{width: 100%;height: 290px;float: left;position: relative;}
+.namecard img{width: 600px;margin-left: 20%;}
+.namecard p{position: absolute;font-size: 1.5em;color: #fff;}
+.cont_name{top: 16.6%;left: 39.3%;}
+.cont_phone{top: 33.7%;left: 39.3%;letter-spacing: 2px;}
+.cont_email{top:51.7%;left: 39.3%;letter-spacing: 3px;}
+.namecard_info{display: block;width: 20%;height: 25px;float: left;margin-left: 42.5%;margin-top: 1%;text-shadow: 2px 2px 5px #ddd;color: #a8a8a8;font-size: 0.9em;}
+
+
+.footer{height: 50px;width: 100%;background: #000;}
+.footer p{color: #fff;text-align: center;line-height: 2.5;font-size: 1em;}
+
+
+
+@media all and (min-width:1025px) and (max-width:1440px){
+    .new_main{height: 820px;}
+    
+    
+    .holo{height: 520px;}
+    
+    .main_typo{width: 60%;}
+    .typing{width: 85%;font-size: 21px;text-indent: 34%;}
+    .phone_num p{line-height: 1.5;padding-top: 3%;font-size: 1.3em;}
+    
+    .aboutme{height: 820px;}
+    .me_txt{top: 18%;left: 9%;}
+    .career{left: 6.2%;top: 50%;}
+    .career p{font-size: 1.3em;}
+    .skill{width: 450px;}
+    
+    .port{height: 820px;}
+    .port_box_wrap ul li{height: 600px;}
+    
+    .port_box1{margin-top: 18.5%;}
+    .port_box2{margin-top: 14.5%;}
+    .port_box3{margin-top: 11.5%;}
+    
+    .contact_me{height: 820px;}
+}
+
+
+
+
