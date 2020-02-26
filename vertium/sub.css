@@ -1,7 +1,7 @@
 @charset "utf-8";
+@import url(http://cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css);
 
 * {margin: 0;padding: 0;}
-
 body,
 html{width:100%;height:100%;font-family:NanumSquare,sans-serif;overflow-x:hidden;background-image:url(img/main_back.png)}
 a {text-decoration: none;font-size: 16px;}
@@ -71,7 +71,7 @@ button{outline:0;border:none;}
 .mix .lst_name{font-size:15px;font-weight:bold;width:100%;height:30px;;float:left;line-height:30px;color: #517e39;background: #eee;margin-bottom: 3%;margin-top: 3%;text-align: center;box-shadow: 2px 2px #ccc;}
 .mix .lst_tit{font-size:1.3em;color:#2f2f2f;width:100%;text-align:left;font-weight:600;text-indent:5%;text-shadow: 1px 1px 1px #bbb;}
 .lst_txt{width:100%;height:15%;display:block;margin-top:3%;}
-.lst_txt tr th{width:20%;text-align:left;font-size:14px;color:#4b4b4b;line-height:1.5;text-indent:20%;}
+.lst_txt tr th{width:24%;text-align:left;font-size:14px;color:#4b4b4b;line-height:1.5;text-indent:20%;}
 .lst_txt tr td{width:70%;font-size:14px;color:#4e4e4e;}
 .mix .lst_num{font-size:1.8em;line-height:2.7;color: #f8a335;font-weight:800;text-align:center;background-image:url(img/sub_call.png);background-repeat:no-repeat;background-position:17% 53%;background-size:7%;}
 .lst_button{width:92%;height:9%;position:absolute;bottom:3%;left:3.5%;}
