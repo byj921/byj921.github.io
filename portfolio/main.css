@@ -24,7 +24,7 @@ header{width: 100%;height: 170px;position: relative;}
 #main_nav{top: 55px;}
 #main_nav ul li button{font-weight: 400;}
 
-.main_txt{font-size: 4.4em;letter-spacing: -2px;font-weight: 100;width: 780px;height: 160px;margin-top: 16%;margin-left: 38%; line-height: 1.3;text-align: right;}
+.main_txt{font-size: 4.3em;letter-spacing: -2px;font-weight: 100;width: 780px;height: 160px;margin-top: 16%;margin-left: 38%; line-height: 1.3;text-align: right;}
 .main_txt::after{}
 .main_txt .main_name{font-weight: 400;letter-spacing: 5px;position: relative;text-shadow: 10px 5px 1px #ddd;}
 .main_txt .comma{font-weight: 400;}
