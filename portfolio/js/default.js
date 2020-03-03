@@ -1,6 +1,5 @@
 $(document).ready(function(){
     
-    
     $('#mockup1').mouseover(function(){
         $('.screen_shot').css('bottom','0');
     });
@@ -19,7 +18,7 @@ $(document).ready(function(){
         $('.screen_shot3').css('bottom','0');
     });
     $('#mockup3').mouseout(function(){
-        $('.screen_shot3').css('bottom','-17%');
+        $('.screen_shot3').css('bottom','-16%');
     });
     
     $('#intro').click(function(){
@@ -34,7 +33,7 @@ $(document).ready(function(){
 			var offset = $('.port').offset(); 
 	        $('body').animate({scrollTop : offset.top}, 800);
 		});
-    $('#contact_me').click(function(){
+    $('#contact').click(function(){
 			var offset = $('.contact_me').offset(); 
 	        $('body').animate({scrollTop : offset.top}, 400);
 		});
@@ -44,6 +43,19 @@ $(document).ready(function(){
 	        $('body').animate({scrollTop : offset.top}, 600);
 		});
     
+    $('#card_wrap').click(function(){
+        $('#pop_card').css('opacity','1');
+        $('#pop_card').css('visibility','visible');
+    });
+    $('#seminar_wrap').click(function(){
+        $('#pop_seminar').css('opacity','1');
+        $('#pop_seminar').css('visibility','visible');
+    });
+    
+    $('.pop_banner .pop_cls').click(function(){
+        $('.pop_banner').css('opacity','0');
+        $('.pop_banner').css('visibility','hidden');
+    })
     
 });
 
